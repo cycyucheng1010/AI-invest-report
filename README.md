@@ -15,7 +15,7 @@ please read workflow.md and analyze [stock name or ticker] to complete the repor
 ```
 
 ### 🔍 Automated Execution Steps in the LLM Sandbox:
-1. **Read Charter and Resolve Ticker**: The LLM reads and loads [Prompt/workflow.md](./Prompt/workflow.md), and automatically resolves the stock name you enter (e.g., TSMC) into the correct exchange ticker symbol (e.g., `0050.tw` or `2330.tw`).
+1. **Read Charter and Resolve Ticker**: The LLM reads and loads [Prompt/workflow.md](./Prompt/workflow.md), and automatically resolves the stock name you enter (e.g., TSMC) into the correct exchange ticker symbol.
 2. **Multi-Role Joint Meeting and Data Retrieval**:
    - Activates the **Volatile Real-Time Data Mechanism**, forcing the retrieval of the latest real-time market data (e.g., closing prices, moving averages, institutional net buy/sell volume, revenues, etc.) through the sandbox or web search.
    - Simulates draft reports from three professional departments: **CFO** (Fundamentals & Financial Model), **AR** (Technical Analysis & Institutional Chips), and **IR** (Industrial Competitiveness & Moat).
